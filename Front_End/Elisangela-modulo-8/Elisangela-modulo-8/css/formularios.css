@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+article {
+    padding: 20px;
+    width: 50%;
+    background-color: #f1f1f1;
+
+}
+article p{
+    color: #0e225a;
+    margin-right: 20px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(52, 52, 187);
+    font-size: 20px;
+    text-align: center;
+}
+
+form div{
+    background: #fff;
+    border: 1px solid #33f;
+    margin: 0 auto;
+    padding: 0.5rem;
+    /* 1 = top, 2 right, 3 = bottom, 4= left, */
+}
+
+[type="text"], [type="email"],  label {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+textarea{
+    width: 90%;
+    margin-bottom: 20px;
+    
+}
+
+
+label{
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #66F;
+}
+    [type="submit"]{
+        width: 150px;
+        
+        border-radius: 6px;
+        padding: 10px;
+        cursor: pointer;
+        display: table;  
+        
+    
+
+}
+
+ 
+
+section::after {
+    background: #ccc;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
