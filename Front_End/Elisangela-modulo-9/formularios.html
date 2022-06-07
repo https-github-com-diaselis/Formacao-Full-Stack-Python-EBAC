@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formularios.css">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <title>HTML- Layouts</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-menu">
+            <div class="logo">
+                <a href="./homepage.html"><img src="./images/logo-elis.png" class="logo" alt=""></a>
+            </div>
+            <div class="menu">
+
+                <a href="./homepage.html">Home</a>
+                <a href="./tabelas2.html">Tabelas</a>
+                <a href="./layout2.html">Layout</a>
+                <a href="./formularios.html">Formulário</a>
+            </div>
+
+        </div>
+
+    </header>
+    <section>
+           <article>
+            <h2>Contato</h2>
+            <p>Prencha os campos abaixo</p>
+            <form method="post">
+                <div> <label for="nome">Nome</label> 
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+
+                </div>
+
+                <div><label for="email">E-mail</label> 
+                    <input type="email" name="email" id="email" placeholder="e-mail">
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label> <textarea name="mensagem" id="mensagem" cols="30"
+                        rows="10"></textarea>
+                </div>
+               
+                <div><input type="submit">
+                </div>
+                    
+                
+                <div>
+                    <p><label>Qual linguagem você prefere?</label>
+                        <input type="radio" name="linguagens" value="html">HTML
+                        <input type="radio" name="linguagens" value="css">CSS
+                        <input type="radio" name="linguagens" value="javascript">Java Script</p>
+
+                </div>
+                <div>
+                    <p><label>Quais linguagens você sabe?</label>
+                        <input type="checkbox" name="linguagens" value="html">HTML
+                        <input type="checkbox" name="linguagens" value="css">CSS
+                        <input type="checkbox" name="linguagens" value="javascript">Java Script
+                    </p>
+
+                </div>
+                <div>
+                    <p><label>Qual sua cor favorita?</label>
+                        <select name="listacores" id="cores">
+                            <option value="azul" selected >Outro</option>
+                            <option value="azul">Azul</option>
+                            <option value="rosa">Rosa</option>
+                            <option value="vermelho">Vermelho</option>
+                        </select>
+
+                    </p>
+
+                </div>
+
+            </form>
+        </article>
+      
+    
+
+    </section>
+    <footer>
+        <span>Desenvolvido por <a href="http://www.linkedin.com/in/elisangeladiassilva/" target="_blank">Elis Dias</a></span>
+    <div class="img-footer">
+        
+            <a href="http://www.linkedin.com/in/elisangeladiassilva/" target="_blank"><img
+                        src="./images/icon-linkedin.png" alt="icone-linkedin"></a>
+            <a href="https://www.instagram.com/dias.elis/" target="_blank"><img src="./images/icon-insta.png"
+                        alt="icone-insta"></a>
+                        <a href="https://github.com/elisdias-puc" target="_blank"><img src="./images/icon-github.png"
+                            alt="icone-insta"></a>
+    </footer>
+</body>
+
+</html>

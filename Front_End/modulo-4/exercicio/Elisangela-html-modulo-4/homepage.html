@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Elisângela Dias</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif
+			}
+
+			/* Style the header */
+			header {
+			  background-color: rgb(68, 96, 146);
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: rgb(121, 167, 228);
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0px;
+			}
+
+			a {
+				text-decoration: none;
+				color: rgb(8, 8, 8);
+								
+			}
+
+			a:hover{
+				color: #0d0d0e;
+				font-weight: bolder;
+
+			}
+			
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			img{
+				border-radius: 50%;
+			}
+
+			h2.header{
+				color: rgb(255, 255, 255);
+			}
+
+			h3{
+				color: whitesmoke;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			  
+			 
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: rgb(14, 34, 90);
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2 class="header">Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul class="menu">
+					<li><a href="01-introducao.html">Introdução</a></li>
+					<li><a href="02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html">Tabelas</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+					<li><a href="06-formularios.html">Formulários</a></li>
+				</ul>
+
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/elisangeladiassilva/" target="_blank">LinkedIn</a></li>
+					<li><a href="https://www.instagram.com/dias.elis/" target="_blank">Instagram</a></li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<img width="200" src="elis.jpeg" height="200" alt="Elis Dias">
+				
+				<h2>Elisângela Dias</h2>
+
+				<p>Estudante no curso de Desenvolvimento Full Stack Python da <a href="https://ebaconline.com.br/" target="_blank"><strong>EBAC</strong></a></p>
+				
+
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Elis Dias</p>
+		</footer>
+		
+	</body>
+</html>

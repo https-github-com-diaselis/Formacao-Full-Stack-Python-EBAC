@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularios.css">
+    <title>HTML- Layouts</title>
+</head>
+
+<body>
+    <header>
+        <h2>Curso front-end HTML</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="./layouts.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Contato</h1>
+            <p>Prencha os campos abaixo</p>
+            <form method="post">
+                <div> <label for="nome">Nome</label> 
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+
+                </div>
+
+                <div><label for="email">E-mail</label> 
+                    <input type="email" name="email" id="email" placeholder="e-mail">
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label> <textarea name="mensagem" id="mensagem" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+                <div>
+                    <p><label>Qual linguagem você prefere?</label>
+                        <input type="radio" name="linguagens" value="html">HTML
+                        <input type="radio" name="linguagens" value="css">CSS
+                        <input type="radio" name="linguagens" value="javascript">Java Script</p>
+
+                </div>
+                <div>
+                    <p><label>Quais linguagens você sabe?</label>
+                        <input type="checkbox" name="linguagens" value="html">HTML
+                        <input type="checkbox" name="linguagens" value="css">CSS
+                        <input type="checkbox" name="linguagens" value="javascript">Java Script
+                    </p>
+
+                </div>
+                <div>
+                    <p><label>Qual sua cor favorita?</label>
+                        <select name="listacores" id="cores">
+                            <option value="azul" selected >Outro</option>
+                            <option value="azul">Azul</option>
+                            <option value="rosa">Rosa</option>
+                            <option value="vermelho">Vermelho</option>
+                        </select>
+
+                    </p>
+
+                </div>
+
+            </form>
+        </article>
+    </section>
+    <footer>Desenvolvido por <a href="https://www.linkedin.com/in/elisangeladiassilva/" target="_blank"><strong> Elis Dias </strong></a></footer>
+</body>
+
+</html>
