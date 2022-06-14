@@ -64,6 +64,10 @@ p{
     line-height: 1.4;
     
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 ol{
     margin-left: 30px;
@@ -139,4 +143,18 @@ footer a{
 
 footer a:hover{
     font-weight: bold;
+}
+
+#tenho-interesse{
+    background-color:#6895bd;
+  
+}
+#tenho-interesse form{
+    background-color:#6895bd !important;
+  
+}
+
+.cognito{
+    height: 400px !important;
+    overflow: hidden;
 }
