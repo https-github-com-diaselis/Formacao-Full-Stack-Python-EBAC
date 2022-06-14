@@ -145,16 +145,33 @@ footer a:hover{
     font-weight: bold;
 }
 
-#tenho-interesse{
-    background-color:#6895bd;
-  
+#tenho-interesse {
+    background-color: #b8c8d6 !important;
+    width: 100%;
 }
-#tenho-interesse form{
-    background-color:#6895bd !important;
-  
+#tenho-interesse form {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse form,
+.cog-cognito, .cog-form, .cog-1, .is-default, .cog-cognito--styled, .cog-form--light-background, .cog-cognito--protect-css, .cog-form--opaque-background{
+    background-color: #1f5585;
 }
 
 .cognito{
     height: 400px !important;
-    overflow: hidden;
+    overflow: hidden !important;
+}
+
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
